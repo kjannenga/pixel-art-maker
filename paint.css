@@ -1,38 +1,58 @@
 div {
-    width:800px;
+    width:1000px;  
 }
 
 div div {
-    width: 100px;
-    height: 100px;
-    outline: 1px solid black;
+    width: 25px;
+    height: 25px; 
     float: left;
+    outline: 1px solid black;
 }
 
-#colors{
-    width:100;
-    height:100;
+#colors div{
+    width:100px;
+    height:100px;
+    text-align: center;
+    display: inline;
+    vertical-align: middle;
 }
+
+
+
 
 .red{
     background-color:red;
+    
 }
 .orange{
     background-color:orange;
+
 }
 .yellow{
     background-color: yellow;
+
 }
 .green{
     background-color: green;
+
 }
 .blue{
     background-color:blue;
+
 }
 .purple{
     background-color: purple;
+    
+}
+.black{
+    background-color:black;
+    color:white;
 }
 .white{
     background-color: white;
+   
+}
+.brown{
+    background-color: brown;
 }
 

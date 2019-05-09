@@ -1,4 +1,15 @@
 document.addEventListener('DOMContentLoaded', function () {
+
+    var canvas = document.getElementById("paint")
+
+    for (var i = 0; i < 1000; i++) {
+        var div = document.createElement('div')
+        canvas.appendChild(div)
+    }
+
+
+
+
     var painter = "white"
 
     document.getElementById("colors").addEventListener("click", function (e) {
